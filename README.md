@@ -53,3 +53,7 @@ The notebook has not been tested with python 2 but should still work.
 
 Type `jupyter notebook supernova_tutorial.ipynb` into the command line after activating the environment.
 
+## Deep Learning tutorial
+
+There is also a very basic deep learning tutorial based on tflearn. You'll need to install tflearn yourself (`pip install tflearn`). WARNING: this thing is very slow unless you have a GPU and install the GPU version tensorflow. It's also highly incomplete so use at your own risk...
+
