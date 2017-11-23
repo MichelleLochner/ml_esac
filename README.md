@@ -6,8 +6,8 @@ To get a copy of this repository type `git clone https://github.com/MichelleLoch
 
 Key files:
 
-`machine_learning_notes.pdf` -> The notes from the lecture (without the answers)
-`pre_workshop_questions.pdf` -> A set of questions for you to spend ~30 minutes investigating that I'll be asking throughout the lecture
+`machine_learning_notes.pdf` -> The notes from the lecture (without the answers) <br>
+`pre_workshop_questions.pdf` -> A set of questions for you to spend ~30 minutes investigating that I'll be asking throughout the lecture <br>
 `supernova_tutorial.ipynb` -> A Jupyter Notebook tutorial for supernova classification with machine learning.
 
 ## Running the code
@@ -24,7 +24,7 @@ I strongly recommend using anaconda to run the tutorial code:
 
 3) Activate the environment by typing:
 
-`source activate snmachine`
+`source activate ml`
 
 **Note: If you have tsch instead of bash this will not work!**
 
@@ -45,9 +45,7 @@ dependencies:
   - scikit-learn>=0.18.1
   - scipy>=0.17.0
   - iminuit>=0.12
-
-  - pip:
-    - sncosmo>=1.3.0
+  - sncosmo>=1.3.0
 
 The notebook has not been tested with python 2 but should still work. 
 
